@@ -5,11 +5,13 @@ body {
   padding: 0;
 }
 #container {
-  width: 90%;
-  height: 700px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 50%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 40px;
   border: none;
   box-shadow: 8px -8px 10px rgba(255, 255, 255, 0.2),
     8px 8px 10px rgba(255, 255, 255, 0.2),
@@ -57,11 +59,13 @@ h1 {
 }
 @media (max-width: 768px) {
   #container {
-    width: 90%;
-    height: 700px;
+    width: 50%;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 25%;
+    margin-top: 40px;
     border: none;
     box-shadow: 8px -8px 10px rgba(255, 255, 255, 0.2),
       8px 8px 10px rgba(255, 255, 255, 0.2),
