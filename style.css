@@ -1,7 +1,7 @@
 body{
     background-color: #000000;
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 40px;
     padding: 0;
 }
 #container{
@@ -57,4 +57,58 @@ form input {
 h1{
     color: #ffffff;
     text-align: center;
+}
+@media screen and (max-width: 300px){
+    body{
+        background-color: #000000;
+        font-family: Arial, sans-serif;
+        margin: 40px;
+        padding: 0;
+    } 
+    #container{
+        width: 300px;
+        height: 400px;
+        margin: 100px auto;
+    }
+    #input-value{
+        width: 15em;
+        height: 40px;
+        font-size: 15px;
+        padding: 10px;
+        border: none;
+        margin: 10px;
+        text-align: right;
+        background-color: black;
+        color: white;
+        box-shadow: none;
+        margin-bottom: 40px;
+    }
+    form input {
+        width:40px;
+        height: 40px;
+        font-size: 15px;
+        padding: 10px;
+        border: none;
+        margin: 10px;
+        margin-left: 30px;
+        background-color: #000000;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        border-radius: 50%;
+        box-shadow: 4px -4px 5px rgba(255, 255, 255, 0.2),
+                    4px 4px 5px rgba(255, 255, 255, 0.2),
+                    -4px 4px 5px rgba(255, 255, 255, 0.2),
+                    -4px -4px 5px rgba(255, 255, 255, 0.2);
+                     
+    }
+    #equal{
+        border-radius: 26px;
+        width: 100px;
+        padding: 10px;
+    }
+    h1{
+        color: #ffffff;
+        text-align: center;
+    }
+    
 }
