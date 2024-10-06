@@ -5,7 +5,7 @@ body {
   padding: 0;
 }
 #container {
-  width: 99%;
+  width: 90%;
   height: 700px;
   display: flex;
   align-items: center;
@@ -57,7 +57,7 @@ h1 {
 }
 @media (max-width: 768px) {
   #container {
-    width: 99%;
+    width: 90%;
     height: 700px;
     display: flex;
     align-items: center;
